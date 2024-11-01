@@ -1,0 +1,174 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* SMSA Order Container Styling */
+#smsa-order {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+/* Heading Styling */
+h3.wp-heading-inline {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table Navigation (tablenav) */
+.tablenav.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.tablenav .actions.custom {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button and Action Styling */
+.smsa_action {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #440099;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    color: #FF671F;
+}
+
+/* .smsa_action:hover {
+    background-color: #FF671F;
+} */
+
+/* Input Fields and Labels */
+label {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.form-control {
+    color: #440099 !important;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+/* Product Description Styling */
+.pb-text {
+    color: #FF671F !important;
+    font-weight: bold !important;
+}
+
+/* Table Styles */
+#example {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#example th, #example td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#example th {
+    background-color: #440099;
+    color: #ffffff;
+}
+
+#example tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#example tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Pagination */
+.active>.page-link, .page-link.active {
+    
+    color: var(--bs-pagination-active-color);
+    background-color: #440099;
+    border-color: #440099;
+}
+
+.page-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--bs-pagination-bg);
+    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Action Buttons in Table */
+.table-actions {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #f8f9fa;
+}
+
+.table-actions .button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #FF671F;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    
+    
+}
+
+.table-actions .button:hover {
+    background-color: #ffffff;
+}
+
+.table-actions .button i {
+    margin-right: 5px;
+}
+
+hr {
+    margin-top: 30px;
+    border-color: #ddd;
+}
+#trackTable {
+    margin-bottom: 40px;
+}
+#trackTable th {
+    background-color: #440099;
+    color: #ffffff;
+    text-align: center;
+}
+#trackTable td {
+    text-align: center;
+    vertical-align: middle;
+}
+#trackTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
